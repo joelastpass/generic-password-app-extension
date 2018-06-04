@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
                    Empowering your users to use strong, unique passwords has never been easier.
                    DESC
 
-  s.homepage          = "https://github.com/AgileBits/genericpassword-app-extension"
+  s.homepage          = "https://github.com/lastpass/generic-password-app-extension"
   s.license           = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.authors           = [ "Dave Teare", "Michael Fey", "Rad Azzouz", "Roustem Karimov" ]
-  s.social_media_url  = "https://twitter.com/GenericPasswordBeta"
+  s.social_media_url  = "https://twitter.com/lastpass"
 
-  s.source            = { :git => "https://github.com/AgileBits/genericpassword-app-extension.git", :tag => s.version }
+  s.source            = { :git => "https://github.com/lastpass/generic-password-app-extension.git", :tag => s.version }
   s.platform          = :ios, 7.0
   s.source_files      = "*.{h,m}"
   s.frameworks        = "UIKit"
